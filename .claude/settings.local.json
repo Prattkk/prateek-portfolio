@@ -21,7 +21,8 @@
       "Bash(npx netlify-cli:*)",
       "Bash(npx surge:*)",
       "Bash(npx gh-pages:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(git push:*)"
     ]
   }
 }
