@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0077b6"/>
+      <stop offset="100%" style="stop-color:#2ec4b6"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0077b6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#2ec4b6;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="12" ry="12" fill="url(#bg)" stroke="#0077b6" stroke-width="1.5" stroke-opacity="0.4"/>
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#fff" stroke-width="1"/>
+  </g>
+  <!-- Decorative circle -->
+  <circle cx="400" cy="200" r="120" fill="url(#iconGrad)" stroke="url(#accent)" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="400" cy="200" r="80" fill="none" stroke="url(#accent)" stroke-width="1" stroke-opacity="0.15"/>
+  <!-- Medical cross icon -->
+  <rect x="378" y="150" width="44" height="100" rx="6" fill="url(#accent)" opacity="0.8"/>
+  <rect x="350" y="178" width="100" height="44" rx="6" fill="url(#accent)" opacity="0.8"/>
+  <!-- Heartbeat line -->
+  <polyline points="260,200 320,200 340,170 360,230 380,185 400,215 420,195 440,200 500,200" fill="none" stroke="#2ec4b6" stroke-width="2" opacity="0.4"/>
+  <!-- Small decorative dots -->
+  <circle cx="150" cy="100" r="3" fill="#0077b6" opacity="0.3"/>
+  <circle cx="650" cy="120" r="4" fill="#2ec4b6" opacity="0.2"/>
+  <circle cx="120" cy="380" r="3" fill="#2ec4b6" opacity="0.25"/>
+  <circle cx="680" cy="400" r="5" fill="#0077b6" opacity="0.2"/>
+  <!-- Project name -->
+  <text x="400" y="370" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#ffffff" letter-spacing="1">Second Opinion</text>
+  <!-- Category -->
+  <text x="400" y="405" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" fill="#2ec4b6" opacity="0.8" letter-spacing="3" text-transform="uppercase">AI HEALTHCARE</text>
+  <!-- Bottom accent line -->
+  <rect x="300" y="430" width="200" height="2" rx="1" fill="url(#accent)" opacity="0.3"/>
+</svg>
