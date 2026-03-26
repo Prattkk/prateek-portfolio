@@ -20,7 +20,7 @@ const projectData: ProjectDetail[] = [
     name: "Second Opinion",
     category: "AI Healthcare Platform",
     tools: "GenAI, NLP, Python, Clinical Data",
-    image: "/images/projects/second-opinion.svg",
+    image: `${import.meta.env.BASE_URL}images/projects/second-opinion.svg`,
     github: "https://github.com/Prattkk/second-opinion-healthcare-ai",
     tags: ["GenAI", "NLP", "Python", "Healthcare", "OCR"],
     businessProblem:
@@ -49,7 +49,7 @@ const projectData: ProjectDetail[] = [
     name: "Short-Alpha Intelligence Pod",
     category: "Multi-Agent Trading System",
     tools: "Python, NewsAPI, NLP, Multi-Agent Architecture",
-    image: "/images/projects/short-alpha.svg",
+    image: `${import.meta.env.BASE_URL}images/projects/short-alpha.svg`,
     github: "https://github.com/Prattkk/short-alpha-intelligence-pod",
     tags: ["Python", "NLP", "NewsAPI", "Multi-Agent", "Finance"],
     businessProblem:
@@ -78,7 +78,7 @@ const projectData: ProjectDetail[] = [
     name: "Yelp Restaurant Analytics",
     category: "Data Engineering & Azure SQL",
     tools: "Azure SQL, Python, Marimo, JSON Pipelines",
-    image: "/images/projects/yelp-analytics.svg",
+    image: `${import.meta.env.BASE_URL}images/projects/yelp-analytics.svg`,
     github: "https://github.com/Prattkk/yelp-azure-sql-restaurant-analytics",
     tags: ["Azure SQL", "Python", "Marimo", "Data Modeling", "Geospatial"],
     businessProblem:
@@ -106,7 +106,7 @@ const projectData: ProjectDetail[] = [
     name: "Wolters Kluwer AI Workflow",
     category: "AI Research & Drafting",
     tools: "GenAI, Audit Workflows, Competitive Analysis",
-    image: "/images/projects/wolters-kluwer.svg",
+    image: `${import.meta.env.BASE_URL}images/projects/wolters-kluwer.svg`,
     github: "https://github.com/Prattkk/wolters-kluwer-answerconnect-ai",
     prototype: "https://peaceful-valkyrie-7f0fbb.netlify.app/",
     tags: ["GenAI Strategy", "Product Design", "Workflow Automation"],
@@ -137,7 +137,7 @@ const projectData: ProjectDetail[] = [
     name: "European Football Transfer BI",
     category: "Sports Analytics & BI",
     tools: "Tableau, Predictive Modeling, Data Visualization",
-    image: "/images/projects/football-transfer.svg",
+    image: `${import.meta.env.BASE_URL}images/projects/football-transfer.svg`,
     github: "https://github.com/Prattkk/European-Football-Transfer-BI",
     tags: ["Tableau", "Data Visualization", "Predictive Modeling", "Sports Analytics"],
     businessProblem:
@@ -165,7 +165,7 @@ const projectData: ProjectDetail[] = [
     name: "Stablecoin Analytics (PYUSD)",
     category: "Blockchain & Financial Modeling",
     tools: "Python, KNIME, MongoDB, Dune Analytics",
-    image: "/images/projects/stablecoin.svg",
+    image: `${import.meta.env.BASE_URL}images/projects/stablecoin.svg`,
     github: "https://github.com/Prattkk/stablecoin-ecosystem-pyusd",
     tags: ["Python", "KNIME", "Financial Modeling", "Blockchain", "Dune Analytics"],
     businessProblem:
