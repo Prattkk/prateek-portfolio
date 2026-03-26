@@ -1,0 +1,106 @@
+.education-section {
+  margin: auto;
+  padding: 80px 0;
+}
+.education-container {
+  width: 100%;
+}
+.education-container h2 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #7f40ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.education-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.education-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  padding: 35px 40px;
+  transition: border-color 0.3s;
+}
+.education-card:hover {
+  border-color: var(--accentColor);
+}
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.education-degree h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+.education-degree h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 8px 0 4px;
+  color: var(--accentColor);
+}
+.education-degree h5 {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.6;
+}
+.education-year {
+  text-align: right;
+  flex-shrink: 0;
+}
+.education-year span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.education-gpa {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0 0;
+  color: var(--accentColor);
+}
+.education-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.education-tags span {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+}
+@media only screen and (max-width: 900px) {
+  .education-container h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .education-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .education-year {
+    text-align: left;
+  }
+  .education-degree h3 {
+    font-size: 22px;
+  }
+  .education-card {
+    padding: 25px 30px;
+  }
+}

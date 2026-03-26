@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="12" ry="12" fill="url(#bg)" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.4"/>
+  <!-- Subtle grid -->
+  <g opacity="0.04">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#fff" stroke-width="1"/>
+  </g>
+  <!-- Decorative circle -->
+  <circle cx="400" cy="195" r="120" fill="url(#iconGrad)" stroke="url(#accent)" stroke-width="1" stroke-opacity="0.2"/>
+  <!-- Candlestick chart elements -->
+  <g transform="translate(310, 130)">
+    <!-- Candle 1 - green -->
+    <line x1="20" y1="30" x2="20" y2="110" stroke="#10b981" stroke-width="2" opacity="0.6"/>
+    <rect x="10" y="50" width="20" height="40" rx="2" fill="#10b981" opacity="0.7"/>
+    <!-- Candle 2 - red -->
+    <line x1="55" y1="20" x2="55" y2="100" stroke="#ef4444" stroke-width="2" opacity="0.4"/>
+    <rect x="45" y="35" width="20" height="45" rx="2" fill="#ef4444" opacity="0.4"/>
+    <!-- Candle 3 - green -->
+    <line x1="90" y1="10" x2="90" y2="95" stroke="#10b981" stroke-width="2" opacity="0.7"/>
+    <rect x="80" y="25" width="20" height="50" rx="2" fill="#10b981" opacity="0.8"/>
+    <!-- Candle 4 - green -->
+    <line x1="125" y1="5" x2="125" y2="80" stroke="#10b981" stroke-width="2" opacity="0.8"/>
+    <rect x="115" y="15" width="20" height="40" rx="2" fill="#10b981" opacity="0.9"/>
+    <!-- Candle 5 - red -->
+    <line x1="160" y1="15" x2="160" y2="90" stroke="#ef4444" stroke-width="2" opacity="0.4"/>
+    <rect x="150" y="30" width="20" height="35" rx="2" fill="#ef4444" opacity="0.4"/>
+  </g>
+  <!-- Upward trend arrow -->
+  <polyline points="320,260 370,230 420,210 470,170 510,150" fill="none" stroke="#10b981" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+  <polygon points="510,145 520,155 508,155" fill="#10b981" opacity="0.6"/>
+  <!-- Small decorative dots -->
+  <circle cx="150" cy="100" r="3" fill="#10b981" opacity="0.3"/>
+  <circle cx="650" cy="120" r="4" fill="#059669" opacity="0.2"/>
+  <circle cx="120" cy="380" r="3" fill="#059669" opacity="0.25"/>
+  <circle cx="680" cy="400" r="5" fill="#10b981" opacity="0.2"/>
+  <!-- Project name -->
+  <text x="400" y="365" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="30" font-weight="700" fill="#ffffff" letter-spacing="1">Short-Alpha Intelligence Pod</text>
+  <!-- Category -->
+  <text x="400" y="400" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" fill="#10b981" opacity="0.8" letter-spacing="3">TRADING SYSTEM</text>
+  <!-- Bottom accent line -->
+  <rect x="300" y="425" width="200" height="2" rx="1" fill="url(#accent)" opacity="0.3"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="12" ry="12" fill="url(#bg)" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.4"/>
+  <!-- Subtle grid -->
+  <g opacity="0.04">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#fff" stroke-width="1"/>
+  </g>
+  <!-- Decorative circle -->
+  <circle cx="400" cy="195" r="120" fill="url(#iconGrad)" stroke="url(#accent)" stroke-width="1" stroke-opacity="0.2"/>
+  <!-- Document icon -->
+  <g transform="translate(355, 120)">
+    <rect x="0" y="0" width="70" height="90" rx="6" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.7"/>
+    <rect x="5" y="5" width="60" height="80" rx="4" fill="#8b5cf6" opacity="0.15"/>
+    <!-- Document lines -->
+    <line x1="15" y1="25" x2="55" y2="25" stroke="#8b5cf6" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <line x1="15" y1="38" x2="50" y2="38" stroke="#8b5cf6" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+    <line x1="15" y1="51" x2="45" y2="51" stroke="#8b5cf6" stroke-width="2" opacity="0.35" stroke-linecap="round"/>
+    <line x1="15" y1="64" x2="52" y2="64" stroke="#8b5cf6" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  </g>
+  <!-- AI brain nodes -->
+  <g opacity="0.5">
+    <circle cx="340" cy="170" r="4" fill="#a78bfa"/>
+    <circle cx="460" cy="170" r="4" fill="#a78bfa"/>
+    <circle cx="340" cy="230" r="4" fill="#a78bfa"/>
+    <circle cx="460" cy="230" r="4" fill="#a78bfa"/>
+    <circle cx="310" cy="200" r="3" fill="#8b5cf6"/>
+    <circle cx="490" cy="200" r="3" fill="#8b5cf6"/>
+    <!-- Connection lines -->
+    <line x1="340" y1="170" x2="460" y2="170" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+    <line x1="340" y1="230" x2="460" y2="230" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+    <line x1="340" y1="170" x2="340" y2="230" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+    <line x1="460" y1="170" x2="460" y2="230" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+    <line x1="310" y1="200" x2="340" y2="170" stroke="#8b5cf6" stroke-width="1" opacity="0.25"/>
+    <line x1="310" y1="200" x2="340" y2="230" stroke="#8b5cf6" stroke-width="1" opacity="0.25"/>
+    <line x1="490" y1="200" x2="460" y2="170" stroke="#8b5cf6" stroke-width="1" opacity="0.25"/>
+    <line x1="490" y1="200" x2="460" y2="230" stroke="#8b5cf6" stroke-width="1" opacity="0.25"/>
+  </g>
+  <!-- Sparkle/AI indicators -->
+  <g transform="translate(440, 135)" opacity="0.6">
+    <line x1="0" y1="5" x2="0" y2="15" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-5" y1="10" x2="5" y2="10" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(350, 250)" opacity="0.4">
+    <line x1="0" y1="3" x2="0" y2="11" stroke="#c4b5fd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-4" y1="7" x2="4" y2="7" stroke="#c4b5fd" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Small decorative dots -->
+  <circle cx="150" cy="100" r="3" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="650" cy="120" r="4" fill="#7c3aed" opacity="0.2"/>
+  <circle cx="120" cy="380" r="3" fill="#7c3aed" opacity="0.25"/>
+  <circle cx="680" cy="400" r="5" fill="#8b5cf6" opacity="0.2"/>
+  <!-- Project name -->
+  <text x="400" y="370" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#ffffff" letter-spacing="1">AI Research Workflow</text>
+  <!-- Category -->
+  <text x="400" y="405" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" fill="#a78bfa" opacity="0.8" letter-spacing="3">WOLTERS KLUWER</text>
+  <!-- Bottom accent line -->
+  <rect x="300" y="430" width="200" height="2" rx="1" fill="url(#accent)" opacity="0.3"/>
+</svg>
