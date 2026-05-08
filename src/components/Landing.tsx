@@ -13,13 +13,6 @@ const Landing = ({ children }: PropsWithChildren) => {
               <br />
               <span>VERMA</span>
             </h1>
-            <a
-              href={`${import.meta.env.BASE_URL}files/Master.pdf`}
-              download="Prateek_Verma_Resume.pdf"
-              className="resume-btn"
-            >
-              ↓ Download Resume
-            </a>
           </div>
           <div className="landing-info">
             <h3>A Strategic</h3>

@@ -183,27 +183,6 @@
    font-weight: 200; 
 } */
 
-.resume-btn {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 10px 22px;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 3px;
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0.07);
-  transition: background 0.3s, border-color 0.3s;
-  z-index: 10;
-  position: relative;
-}
-.resume-btn:hover {
-  background: rgba(196, 129, 255, 0.2);
-  border-color: #c481ff;
-  color: #c481ff;
-}
 
 .landing-info {
   position: absolute;
