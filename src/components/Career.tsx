@@ -15,71 +15,66 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Data Analyst Intern</h4>
-                <h5>WNS Global Services</h5>
+                <h4>Business Technology Consultant</h4>
+                <h5>Bosch Power Tools · Champaign, IL</h5>
               </div>
-              <h3>May 2022 – Apr 2023</h3>
+              <h3>Jan 2026 – May 2026</h3>
             </div>
             <p>
-              Executed targeted marketing campaigns using IBM UNICA and
-              SQL-based customer segmentation, ensuring 100% data accuracy
-              before launches.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Associate → Senior Associate</h4>
-                <h5>WNS Global Services</h5>
-              </div>
-              <h3>May 2023 – Oct 2024</h3>
-            </div>
-            <p>
-              Promoted for high-impact analytics; translated business
-              requirements into automated SQL queries and Tableau dashboards,
-              reducing manual reporting by 30%.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Senior Data Analyst</h4>
-                <h5>Upsleek Apparels</h5>
-              </div>
-              <h3>Oct 2024 – Jun 2025</h3>
-            </div>
-            <p>
-              Built data pipelines using SQL and Python; created Tableau/Power
-              BI dashboards with 30+ KPI measures. Automated reporting saving
-              15+ hours/week.
+              Engineered a full-stack B2B automation system combining Python
+              FastAPI and React + TypeScript, implementing 4-gate identity
+              verification logic against 44,000+ SAP customer records and
+              eliminating manual registration workflows. Orchestrated
+              integration of 23,600+ SAP master data records into a
+              browser-based validation engine using SheetJS with automated
+              SMTP notifications.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Business Analyst</h4>
-                <h5>Wolters Kluwer</h5>
+                <h5>Wolters Kluwer · Champaign, IL</h5>
               </div>
               <h3>Aug 2025 – Dec 2025</h3>
             </div>
             <p>
-              Architected a Proactive AI Advisory System shifting tax/audit
-              workflows from reactive Q&A to real-time strategic guidance;
-              conducted competitive benchmarking to define technical requirements.
+              Architected a Proactive AI Advisory System using GenAI and LLM
+              pipelines, reducing advisory turnaround by 25%. Spearheaded
+              competitive benchmarking across Harvey AI, CoCounsel, and
+              MindBridge; mapped tax audit lifecycles across 500+ client
+              accounts to define explainability requirements.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Business Technology Consultant</h4>
-                <h5>Bosch Power Tools</h5>
+                <h4>Senior Data Analyst</h4>
+                <h5>Upsleek Apparels Pvt Ltd · Noida, India</h5>
               </div>
-              <h3>Jan 2026 – Present</h3>
+              <h3>Oct 2024 – Jun 2025</h3>
             </div>
             <p>
-              Building hybrid automation models with React, TypeScript, and
-              FastAPI for identity verification against 44,000+ SAP customer
-              records for Bosch's B2B portal.
+              Automated data pipelines using SQL and Python; designed Tableau
+              and Power BI dashboards with 30+ KPI measures, reducing reporting
+              errors by 35%. Saved 15+ hours/week via scheduled jobs and
+              improved marketing ROI by 18% through A/B testing.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Data Analyst Intern → Associate → Senior Associate</h4>
+                <h5>WNS Global Services · Bengaluru, India</h5>
+              </div>
+              <h3>May 2022 – Oct 2024</h3>
+            </div>
+            <p>
+              Promoted twice in 2.5 years; translated stakeholder requirements
+              into automated SQL queries and Tableau dashboards, reducing manual
+              reporting by 30% across 10+ departments. Implemented enterprise
+              data governance in Collibra on 1M+ records; executed IBM UNICA
+              campaigns with 100% pre-launch data accuracy.
             </p>
           </div>
         </div>

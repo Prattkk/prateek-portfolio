@@ -6,12 +6,14 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I thrive at the intersection of business strategy and data
-          engineering — turning messy, ambiguous problems into automated
-          pipelines, interactive dashboards, and GenAI-powered systems that
-          drive real decisions. Currently pursuing my M.S. in Business
-          Analytics at UIUC Gies, I bring 3+ years of hands-on experience
-          across consulting, e-commerce, and global services.
+          Business Analyst and AI-augmented Data Storyteller with 3+ years
+          of experience bridging strategic business goals and technical
+          execution. Expert in agentic AI systems, LLM-powered automation,
+          and end-to-end data pipelines (AWS, Azure) that convert ambiguous
+          requirements into data-driven decision making and measurable business
+          outcomes. Proven track record deploying GenAI advisory systems,
+          multi-agent orchestration, and RAG-enabled workflows across enterprise
+          consulting, e-commerce, and global financial services.
         </p>
       </div>
     </div>

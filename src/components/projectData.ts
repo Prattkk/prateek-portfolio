@@ -16,6 +16,64 @@ export interface ProjectDetail {
 
 const projectData: ProjectDetail[] = [
   {
+    id: "magelli-scout",
+    name: "Magelli Scout",
+    category: "AI Prospect Intelligence System",
+    tools: "Microsoft Copilot Studio, Multi-Agent Orchestration, Power BI, Power Automate",
+    image: `${import.meta.env.BASE_URL}images/projects/magelli-scout.svg`,
+    github: "https://github.com/Prattkk",
+    tags: ["Agentic AI", "Multi-Agent", "Copilot Studio", "Power BI", "Power Automate"],
+    businessProblem:
+      "Sales and recruiting teams waste significant time manually scanning job postings and prospect lists to identify capability gaps and high-fit leads. There was no automated system to read job postings as intelligence signals, score prospects deterministically, and deliver actionable weekly briefs without human intervention.",
+    whatIDid: [
+      "Built a multi-agent agentic AI system on Microsoft Copilot Studio for the Gies AI for Impact Challenge 2026 (24-hour Buildathon)",
+      "Designed an orchestration layer where agents read job postings as capability gap signals and mapped them against prospect profiles",
+      "Scored 64 prospects using a deterministic rubric with weighted criteria across role fit, company stage, and capability alignment",
+      "Automated delivery of weekly intelligence briefs via Power Automate to stakeholders without manual intervention",
+      "Built Power BI dashboards visualizing prospect pipeline health, score distributions, and engagement recommendations",
+      "Won 1st Place out of all teams competing in the 24-hour buildathon format",
+    ],
+    toolsAndTech:
+      "Microsoft Copilot Studio · Multi-Agent Orchestration · Power Automate · Power BI · DAX · Prompt Engineering · Agentic AI Workflows",
+    keyInsights: [
+      "Job postings contain rich capability gap signals that can be parsed programmatically to identify high-fit prospects",
+      "Deterministic scoring rubrics outperform subjective evaluation for consistent prospect ranking at scale",
+      "Multi-agent architecture enables parallel processing of job signal ingestion, scoring, and brief generation",
+      "Weekly automated briefs reduced manual prospect research time to near zero for the target workflow",
+    ],
+    outcome:
+      "Won 1st Place at the Gies AI for Impact Challenge 2026 (24-hour Buildathon). Delivered a fully automated prospect intelligence system that reads job postings, scores 64 prospects via deterministic rubric, and delivers weekly briefings via Power Automate — eliminating manual research overhead entirely.",
+  },
+  {
+    id: "project-nexus",
+    name: "Project Nexus",
+    category: "Walmart Smart Commerce Strategy",
+    tools: "Go-to-Market Strategy, Financial Modeling, Supply Chain Analytics",
+    image: `${import.meta.env.BASE_URL}images/projects/project-nexus.svg`,
+    github: "https://github.com/Prattkk",
+    tags: ["Financial Modeling", "Supply Chain", "Go-to-Market", "Strategy", "Drone Logistics"],
+    businessProblem:
+      "Walmart faces growing last-mile delivery competition from Amazon and emerging quick-commerce players. To maintain market leadership, Walmart needed a viable smart commerce strategy that could operationalize drone delivery at scale while generating sufficient ROI to justify the capital expenditure within a credible financial model.",
+    whatIDid: [
+      "Won 1st Place at the Gies Interdisciplinary Case Competition 2026, competing against cross-functional graduate teams",
+      "Built a full go-to-market strategy for Walmart smart commerce with drone delivery as the core operational differentiator",
+      "Modeled an 86-drone fleet configuration optimized to handle 779 daily delivery orders across target service zones",
+      "Constructed a detailed financial model projecting $13.7M Year 1 revenue pool across delivery segments",
+      "Developed a $5.28M CapEx plan covering fleet acquisition, infrastructure, regulatory compliance, and pilot zone buildout",
+      "Presented findings to a panel of judges including industry professionals and faculty",
+    ],
+    toolsAndTech:
+      "Financial Modeling · Supply Chain Analytics · Market Sizing · Go-to-Market Strategy · Competitive Analysis · Presentation Design",
+    keyInsights: [
+      "86-drone fleet is the minimum viable scale for positive unit economics at 779 daily orders",
+      "Last-mile drone delivery creates a 4–6 minute delivery window competitive advantage vs. 2-hour standard fulfillment",
+      "Year 1 revenue pool of $13.7M is achievable within existing Walmart suburban store footprints without new facility investment",
+      "CapEx payback period is accelerated by converting existing parking infrastructure into drone launch pads",
+    ],
+    outcome:
+      "Won 1st Place at the Gies Interdisciplinary Case Competition 2026. Delivered a comprehensive Walmart smart commerce strategy backed by rigorous financial modeling: 86-drone fleet, 779 daily orders, $13.7M Year 1 revenue pool, and a $5.28M CapEx plan — demonstrating end-to-end business strategy and quantitative modeling capabilities.",
+  },
+  {
     id: "second-opinion",
     name: "Second Opinion",
     category: "AI Healthcare Platform",

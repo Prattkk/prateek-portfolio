@@ -89,24 +89,30 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>ANALYZE</h3>
-              <h4>Data & Strategy</h4>
+              <h4>Analytics, Visualization & Business Strategy</h4>
               <p>
-                Transforming raw data into actionable insights through
-                automated pipelines, dashboards, and statistical modeling
-                across consulting, e-commerce, and global services.
+                Transforming raw data into executive-ready insights through
+                Power BI, Tableau, and statistical modeling — paired with
+                stakeholder management, competitive benchmarking, and
+                cross-functional strategy across consulting, e-commerce, and
+                global financial services.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">SQL</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">Power BI</div>
+                <div className="what-tags">Power BI (DAX)</div>
                 <div className="what-tags">Tableau</div>
+                <div className="what-tags">SQL</div>
                 <div className="what-tags">A/B Testing</div>
-                <div className="what-tags">NLP</div>
+                <div className="what-tags">Statistical Modeling</div>
                 <div className="what-tags">Forecasting</div>
+                <div className="what-tags">NLP</div>
                 <div className="what-tags">GenAI Strategy</div>
-                <div className="what-tags">Excel</div>
-                <div className="what-tags">Marimo</div>
+                <div className="what-tags">Stakeholder Management</div>
+                <div className="what-tags">Agile / Scrum</div>
+                <div className="what-tags">Competitive Benchmarking</div>
+                <div className="what-tags">SAP</div>
+                <div className="what-tags">Collibra</div>
+                <div className="what-tags">Jira</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -131,22 +137,27 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>BUILD</h3>
-              <h4>Engineering & Platforms</h4>
+              <h4>AI, Data Engineering & Platforms</h4>
               <p>
-                Building full-stack prototypes, data pipelines, and
-                cloud-based solutions from concept to deployment using
-                modern frameworks and cloud services.
+                Engineering agentic AI systems, LLM pipelines, and end-to-end
+                data infrastructure — from multi-agent orchestration on Copilot
+                Studio to full-stack FastAPI + React automation, AWS/Azure
+                pipelines, and RAG-enabled workflows.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">FastAPI</div>
-                <div className="what-tags">AWS</div>
-                <div className="what-tags">Azure</div>
-                <div className="what-tags">SAP</div>
-                <div className="what-tags">Collibra</div>
+                <div className="what-tags">Agentic AI</div>
+                <div className="what-tags">LLM Integration</div>
+                <div className="what-tags">Multi-Agent Orchestration</div>
+                <div className="what-tags">RAG Pipelines</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">Power Automate</div>
+                <div className="what-tags">Python (FastAPI)</div>
+                <div className="what-tags">React + TypeScript</div>
+                <div className="what-tags">AWS (S3, Glue, Lambda)</div>
+                <div className="what-tags">Azure SQL</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">ETL Pipelines</div>
               </div>
               <div className="what-arrow"></div>
             </div>
