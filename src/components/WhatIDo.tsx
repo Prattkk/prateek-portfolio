@@ -88,31 +88,29 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>ANALYZE</h3>
-              <h4>Analytics, Visualization & Business Strategy</h4>
+              <h3>AI</h3>
+              <h4>GenAI · LLM · Agentic Systems</h4>
               <p>
-                Transforming raw data into executive-ready insights through
-                Power BI, Tableau, and statistical modeling — paired with
-                stakeholder management, competitive benchmarking, and
-                cross-functional strategy across consulting, e-commerce, and
-                global financial services.
+                Building production GenAI systems — multi-agent orchestration,
+                RAG pipelines, LLM integrations, prompt engineering, and
+                agentic workflows from prototype to enterprise deployment.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Power BI (DAX)</div>
-                <div className="what-tags">Tableau</div>
-                <div className="what-tags">SQL</div>
-                <div className="what-tags">A/B Testing</div>
-                <div className="what-tags">Statistical Modeling</div>
-                <div className="what-tags">Forecasting</div>
+                <div className="what-tags">GenAI</div>
+                <div className="what-tags">LLM Integration</div>
+                <div className="what-tags">RAG Pipelines</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">Multi-Agent Orchestration</div>
+                <div className="what-tags">Agentic AI</div>
+                <div className="what-tags">Copilot Studio</div>
+                <div className="what-tags">Power Automate</div>
+                <div className="what-tags">LangChain</div>
+                <div className="what-tags">OpenAI API</div>
                 <div className="what-tags">NLP</div>
-                <div className="what-tags">GenAI Strategy</div>
-                <div className="what-tags">Stakeholder Management</div>
-                <div className="what-tags">Agile / Scrum</div>
-                <div className="what-tags">Competitive Benchmarking</div>
-                <div className="what-tags">SAP</div>
-                <div className="what-tags">Collibra</div>
-                <div className="what-tags">Jira</div>
+                <div className="what-tags">Sentiment Analysis</div>
+                <div className="what-tags">Vector Search</div>
+                <div className="what-tags">Embeddings</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -137,27 +135,26 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>BUILD</h3>
-              <h4>AI, Data Engineering & Platforms</h4>
+              <h4>Engineering · Cloud · Analytics</h4>
               <p>
-                Engineering agentic AI systems, LLM pipelines, and end-to-end
-                data infrastructure — from multi-agent orchestration on Copilot
-                Studio to full-stack FastAPI + React automation, AWS/Azure
-                pipelines, and RAG-enabled workflows.
+                Full-stack engineering and cloud data infrastructure —
+                Python, React, FastAPI, AWS pipelines, Azure SQL, ETL,
+                Power BI, Tableau, and statistical modeling at scale.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Agentic AI</div>
-                <div className="what-tags">LLM Integration</div>
-                <div className="what-tags">Multi-Agent Orchestration</div>
-                <div className="what-tags">RAG Pipelines</div>
-                <div className="what-tags">Prompt Engineering</div>
-                <div className="what-tags">Power Automate</div>
-                <div className="what-tags">Python (FastAPI)</div>
+                <div className="what-tags">Python (FastAPI, Scikit-Learn)</div>
                 <div className="what-tags">React + TypeScript</div>
-                <div className="what-tags">AWS (S3, Glue, Lambda)</div>
-                <div className="what-tags">Azure SQL</div>
+                <div className="what-tags">SQL (PostgreSQL, Azure SQL)</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">ETL Pipelines</div>
+                <div className="what-tags">AWS (Kinesis, Lambda, S3, Glue)</div>
+                <div className="what-tags">Azure</div>
+                <div className="what-tags">Power BI (DAX)</div>
+                <div className="what-tags">Tableau</div>
+                <div className="what-tags">A/B Testing</div>
+                <div className="what-tags">Statistical Modeling</div>
+                <div className="what-tags">Collibra</div>
               </div>
               <div className="what-arrow"></div>
             </div>

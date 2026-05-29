@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f0a"/>
+      <stop offset="100%" style="stop-color:#050808"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="12" fill="url(#bg)" stroke="#22c55e" stroke-width="1.5" stroke-opacity="0.35"/>
+  <!-- grid -->
+  <g opacity="0.04">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#fff" stroke-width="1"/>
+    <line x1="160" y1="0" x2="160" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="320" y1="0" x2="320" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="500" stroke="#fff" stroke-width="1"/>
+    <line x1="640" y1="0" x2="640" y2="500" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- Price chart line — simulated market shock -->
+  <!-- Pre-shock trending up -->
+  <polyline points="80,190 120,180 160,170 200,165 240,160 270,155" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <!-- Shock drop: $120/bbl oil spike → market crash -->
+  <polyline points="270,155 300,175 330,210 355,240" fill="none" stroke="#ef4444" stroke-width="2.5" opacity="0.75" stroke-linecap="round"/>
+  <!-- Recovery divergence -->
+  <polyline points="355,240 390,225 430,210 470,195 510,185" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
+  <!-- Second line (divergent alpha) -->
+  <polyline points="355,240 390,248 430,255 470,260 510,265" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5" stroke-linecap="round" stroke-dasharray="5,3"/>
+
+  <!-- Shock marker -->
+  <line x1="270" y1="120" x2="270" y2="265" stroke="#ef4444" stroke-width="1" opacity="0.4" stroke-dasharray="4,3"/>
+  <rect x="255" y="108" width="90" height="20" rx="4" fill="#ef4444" opacity="0.12"/>
+  <text x="300" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#ef4444" opacity="0.9">$120/bbl OIL</text>
+
+  <!-- 5 hedge fund nodes -->
+  <!-- Renaissance -->
+  <rect x="540" y="105" width="110" height="32" rx="6" fill="url(#nodeGrad)" stroke="#22c55e" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="595" y="125" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#22c55e" opacity="0.9">Renaissance Tech</text>
+
+  <!-- Bridgewater -->
+  <rect x="540" y="145" width="110" height="32" rx="6" fill="url(#nodeGrad)" stroke="#22c55e" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="595" y="165" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#22c55e" opacity="0.8">Bridgewater</text>
+
+  <!-- Millennium -->
+  <rect x="540" y="185" width="110" height="32" rx="6" fill="url(#nodeGrad)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="595" y="205" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#f59e0b" opacity="0.8">Millennium</text>
+
+  <!-- Elliott -->
+  <rect x="540" y="225" width="110" height="32" rx="6" fill="url(#nodeGrad)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="595" y="245" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#f59e0b" opacity="0.8">Elliott</text>
+
+  <!-- Brevan Howard -->
+  <rect x="540" y="265" width="110" height="32" rx="6" fill="url(#nodeGrad)" stroke="#ef4444" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="595" y="285" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#ef4444" opacity="0.8">Brevan Howard</text>
+
+  <!-- Signal lines from chart to nodes -->
+  <line x1="510" y1="185" x2="540" y2="121" stroke="#22c55e" stroke-width="0.8" opacity="0.2"/>
+  <line x1="510" y1="185" x2="540" y2="161" stroke="#22c55e" stroke-width="0.8" opacity="0.2"/>
+  <line x1="510" y1="265" x2="540" y2="201" stroke="#f59e0b" stroke-width="0.8" opacity="0.2"/>
+  <line x1="510" y1="265" x2="540" y2="241" stroke="#f59e0b" stroke-width="0.8" opacity="0.2"/>
+  <line x1="510" y1="265" x2="540" y2="281" stroke="#ef4444" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- 13F badge -->
+  <rect x="30" y="38" width="100" height="24" rx="12" fill="#22c55e" opacity="0.1" stroke="#22c55e" stroke-width="1" stroke-opacity="0.45"/>
+  <text x="80" y="54" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#22c55e" opacity="0.85">13F Filings</text>
+
+  <!-- Crowded longs label -->
+  <rect x="148" y="38" width="130" height="24" rx="12" fill="#ef4444" opacity="0.08" stroke="#ef4444" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="213" y="54" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#ef4444" opacity="0.85">Crowded Longs ↑</text>
+
+  <!-- Decorative dots -->
+  <circle cx="50" cy="420" r="3" fill="#22c55e" opacity="0.2"/>
+  <circle cx="740" cy="80" r="4" fill="#22c55e" opacity="0.15"/>
+  <circle cx="720" cy="430" r="3" fill="#f59e0b" opacity="0.15"/>
+
+  <!-- Project name -->
+  <text x="400" y="368" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="0.5">Hedge Fund War Room</text>
+  <!-- Category -->
+  <text x="400" y="403" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" fill="#22c55e" opacity="0.85" letter-spacing="3">MULTI-AGENT INVESTMENT INTELLIGENCE</text>
+  <!-- Bottom accent -->
+  <rect x="300" y="428" width="200" height="2" rx="1" fill="url(#accent)" opacity="0.4"/>
+</svg>

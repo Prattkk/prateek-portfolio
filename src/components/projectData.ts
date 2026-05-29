@@ -20,97 +20,72 @@ const projectData: ProjectDetail[] = [
     id: "magelli-scout",
     name: "Magelli Scout",
     category: "Agentic AI / GenAI",
-    tools: "Microsoft Copilot Studio, Power BI, Power Automate, LLM, Prompt Engineering",
+    tools: "Microsoft Copilot Studio, Multi-Agent Orchestration, Power Automate, Power BI, GenAI",
     image: `${import.meta.env.BASE_URL}images/projects/magelli-scout.svg`,
     github: "https://github.com/Prattkk/magelli-scout",
-    tags: ["🏆 1st Place — Gies AI Buildathon 2026", "Multi-Agent AI", "GenAI", "Power BI", "Copilot Studio"],
+    tags: ["🏆 1st Place — Gies AI Buildathon 2026", "Microsoft Copilot Studio", "Multi-Agent Orchestration", "Power Automate", "Power BI", "GenAI"],
     businessProblem:
       "Consultants waste hours manually screening job postings with no systematic way to evaluate fit against their capability profile. Existing tools match keywords, not capabilities.",
     whatIDid: [
-      "Built a 4-agent AI system on Microsoft Copilot Studio using capability gap inversion methodology",
-      "Agent 1 scrapes and parses job postings, Agent 2 scores capability gaps, Agent 3 updates Power BI dashboard, Agent 4 sends Power Automate weekly briefs",
-      "Designed and deployed live Power BI dashboard surfacing top-fit opportunities automatically",
+      "Built a 6-agent production AI system on Microsoft Copilot Studio using capability gap inversion methodology",
+      "Agent pipeline: job posting ingestion → capability gap scoring → prospect ranking → Power BI dashboard update → Power Automate weekly brief delivery",
+      "System reads job postings as capability gap signals, scores 64 prospects using a deterministic rubric, and delivers automated weekly intelligence briefs in under 30 seconds",
+      "Zero human intervention required — fully autonomous end-to-end pipeline",
       "Won 1st Place in the Business Technology Track at Gies AI for Impact Challenge Buildathon 2026",
     ],
     toolsAndTech:
-      "Microsoft Copilot Studio · Power BI · Power Automate · Generative AI · LLM · Prompt Engineering · Multi-Agent Orchestration",
+      "Microsoft Copilot Studio · Multi-Agent Orchestration · Power Automate · Power BI · Generative AI · LLM · Prompt Engineering · Agentic AI Workflows",
     keyInsights: [
       "Capability gap inversion outperforms keyword matching for job-candidate fit scoring",
-      "Multi-agent orchestration reduced manual screening time to near zero",
-      "Power Automate weekly briefs drove consistent engagement without manual triggers",
+      "6-agent orchestration delivers weekly briefs in under 30 seconds with zero manual triggers",
+      "Power BI dashboard surfaces top-fit opportunities automatically as new job postings arrive",
     ],
     outcome:
-      "🥇 1st Place — Business Technology Track, Gies AI for Impact Challenge Buildathon 2026. Built and deployed a production multi-agent AI hiring tool in 24 hours.",
-  },
-  {
-    id: "project-nexus",
-    name: "Project Nexus",
-    category: "Business Strategy / Financial Modeling",
-    tools: "Financial Modeling, Go-To-Market Strategy, Operations Planning, Market Research",
-    image: `${import.meta.env.BASE_URL}images/projects/project-nexus.svg`,
-    github: "https://github.com/Prattkk/project-nexus",
-    tags: ["🏆 1st Place — Gies Case Competition 2026", "Go-To-Market", "Financial Modeling", "Drone Delivery", "Walmart"],
-    businessProblem:
-      "Walmart needed a viable smart commerce go-to-market strategy for drone delivery in suburban markets — balancing CapEx constraints, regulatory hurdles, and customer adoption curves.",
-    whatIDid: [
-      "Designed a full-scale drone delivery go-to-market strategy for Walmart featuring an 86-drone fleet",
-      "Built a complete financial model: $13.7M Year 1 revenue, $5.28M CapEx (Path B, 5% household penetration)",
-      "Led as CMO, CTO, COO, and CFO — covering market analysis, operations, finance, and risk",
-      "Modeled 779 daily orders across suburban delivery zones with FAA Part 107 compliance framework",
-      "Won 1st Place competing against interdisciplinary teams across Gies College of Business",
-    ],
-    toolsAndTech:
-      "Financial Modeling · Revenue Modeling · CapEx Analysis · Go-To-Market Strategy · Operations Planning · Market Research · Risk Assessment · Executive Presentation",
-    keyInsights: [
-      "Path B (5% household penetration) delivers positive unit economics by Month 18",
-      "FAA regulatory compliance is the critical path constraint, not technology readiness",
-      "Digital-first customer acquisition outperforms traditional retail channel adoption",
-    ],
-    outcome:
-      "🥇 1st Place — Gies Interdisciplinary Case Competition, April 25 2026. Delivered a board-ready go-to-market strategy with full financial model and operational roadmap.",
+      "🥇 1st Place — Business Technology Track, Gies AI for Impact Challenge Buildathon 2026. Production multi-agent AI hiring tool built and deployed in 24 hours.",
   },
   {
     id: "second-opinion",
     name: "Second Opinion",
     category: "Healthcare AI / Startup",
-    tools: "LLM, OCR, NLP, Python, GenAI",
+    tools: "Python, GenAI, LLM Pipelines, RAG, NLP",
     image: `${import.meta.env.BASE_URL}images/projects/second-opinion.svg`,
     github: "https://github.com/Prattkk/second-opinion-healthcare-ai",
-    tags: ["Top 8 — Big Ten Venture Competition", "Healthcare AI", "LLM", "OCR", "Startup"],
+    tags: ["Top 8 — Big Ten Venture Competition", "Python", "GenAI", "LLM Pipelines", "RAG", "NLP"],
     businessProblem:
       "53 million Americans manage complex health administration across multiple providers. Fragmented medical records — scanned PDFs, discharge summaries, prescription photos — make it impossible for patients to walk into appointments prepared.",
     whatIDid: [
       "Co-founded Second Opinion with Suyash Sawant for the COZAD New Venture Competition 2026 at UIUC",
-      "Built a patient-facing platform converting fragmented medical records into doctor-ready clinical timelines using OCR and LLM technology",
-      "Conducted physician discovery interviews and competitive landscape research (Mere Medical, Citizen, Apple Health)",
-      "Performed regulatory feasibility assessment (HIPAA, HITECH, 21st Century Cures Act, HTI-1)",
+      "Built an LLM-powered clinical document summarization platform converting fragmented medical records into structured clinical summaries, reducing chart review time by 40%",
+      "Conducted 10+ physician discovery interviews to validate clinical need and refine output format",
+      "Researched HIPAA compliance and regulatory positioning (HITECH, 21st Century Cures Act, HTI-1)",
+      "Performed competitive analysis against MyChart, Mere Medical, and Apple Health — identified key gaps in speed, cost, and accessibility",
       "Placed Top 8 at a Big Ten venture competition",
     ],
     toolsAndTech:
-      "Large Language Models (LLM) · OCR · Natural Language Processing · Python · Generative AI · Healthcare Analytics · Regulatory Compliance · Venture Strategy",
+      "Large Language Models (LLM) · RAG Pipelines · OCR · Natural Language Processing · Python · Generative AI · Healthcare Analytics · Regulatory Compliance · Venture Strategy",
     keyInsights: [
-      "Patients carrying paper records to appointments is the norm, not the exception",
-      "FHIR-only solutions exclude non-digital records — our differentiator",
+      "FHIR-only solutions exclude non-digital records — working with paper documents is the differentiator",
       "Physician workflow integration is the #1 adoption barrier",
+      "Patient-controlled software operates outside HIPAA coverage requirements, reducing regulatory barriers",
     ],
     outcome:
-      "Top 8 finish at Big Ten Venture Competition 2026. HIPAA, HITECH, and 21st Century Cures Act compliant architecture. Accepted into COZAD New Venture Competition at UIUC.",
+      "Top 8 finish at Big Ten Venture Competition 2026. Reduced chart review time by 40%. HIPAA, HITECH, and 21st Century Cures Act compliant architecture. Accepted into COZAD New Venture Competition at UIUC.",
   },
   {
     id: "short-alpha",
     name: "Short-Alpha Intelligence Pod",
     category: "Fintech / Multi-Agent AI",
-    tools: "Python, NLP, VADER, NewsAPI, Multi-Agent AI, Statistical Modeling",
+    tools: "Python, NewsAPI, NLP, Sentiment Analysis, Multi-Agent Systems",
     image: `${import.meta.env.BASE_URL}images/projects/short-alpha.svg`,
     github: "https://github.com/Prattkk/short-alpha-intelligence-pod",
-    tags: ["Multi-Agent AI", "Fintech", "NLP", "Short Squeeze Detection", "Python"],
+    tags: ["Python", "NewsAPI", "NLP", "Sentiment Analysis", "Multi-Agent Systems"],
     businessProblem:
       "Retail investors lack systematic tools to detect short squeeze setups before institutional momentum builds. Manual screening across news, sentiment, and short interest data is too slow and inconsistent.",
     whatIDid: [
-      "Built a 4-agent AI system detecting short squeeze candidates across AFRM, SQ, PYPL, SHOP, and TSLA",
-      "Agent 1: institutional news ingestion via NewsAPI, Agent 2: VADER retail sentiment scoring, Agent 3: short interest analytics, Agent 4: composite signal generation",
+      "Built a 4-agent intelligence architecture: Discovery → NLP Scoring → Signal Detection → Alert Generation",
+      "Agent 1: institutional news ingestion via NewsAPI; Agent 2: VADER retail sentiment scoring; Agent 3: short interest analytics; Agent 4: composite signal generation",
+      "Applied sentiment analysis and squeeze scoring logic to detect real-time short squeeze signals across AFRM, SQ, PYPL, SHOP, and TSLA",
       "Validated composite Noise Score (0.4×News + 0.6×Retail) against 48-hour crowded score changes via Pearson correlation",
-      "Generated a 1,095-day synthetic stress-test dataset achieving 77.9/100 Fidelity Score",
       "Found statistically significant predictive power for 3 of 5 tickers (AFRM p=0.002, PYPL p<0.001, TSLA p<0.001)",
     ],
     toolsAndTech:
@@ -127,10 +102,10 @@ const projectData: ProjectDetail[] = [
     id: "urbanfleet",
     name: "UrbanFleet AWS Pipeline",
     category: "Data Engineering / Cloud",
-    tools: "AWS Kinesis, Lambda, S3, Glue, Athena, Step Functions, Python",
+    tools: "AWS Kinesis, Lambda, S3, Step Functions, Glue, Athena",
     image: `${import.meta.env.BASE_URL}images/projects/urbanfleet.svg`,
     github: "https://github.com/Prattkk/urbanfleet-aws-pipeline",
-    tags: ["AWS", "Real-Time Pipeline", "Data Engineering", "ETL", "Cloud Architecture"],
+    tags: ["AWS Kinesis", "Lambda", "S3", "Step Functions", "Glue", "Athena"],
     businessProblem:
       "Urban logistics companies lack real-time visibility into fleet operations. Batch processing creates 15-30 minute data delays that make live route optimization impossible.",
     whatIDid: [
@@ -149,6 +124,60 @@ const projectData: ProjectDetail[] = [
     ],
     outcome:
       "Production-ready 4-phase real-time fleet tracking architecture. End-to-end cloud-native pipeline from event ingestion to SQL analytics on S3 data lake.",
+  },
+  {
+    id: "project-nexus",
+    name: "Project Nexus",
+    category: "Business Strategy / Financial Modeling",
+    tools: "Go-to-Market Strategy, Financial Modeling, Supply Chain Analytics, Drone Fleet Analytics",
+    image: `${import.meta.env.BASE_URL}images/projects/project-nexus.svg`,
+    github: "https://github.com/Prattkk/project-nexus",
+    tags: ["🏆 1st Place — Gies Case Competition 2026", "Go-to-Market Strategy", "Financial Modeling", "Supply Chain", "Drone Fleet Analytics"],
+    businessProblem:
+      "Walmart needed a viable smart commerce go-to-market strategy for drone delivery in suburban markets — balancing CapEx constraints, regulatory hurdles, and customer adoption curves.",
+    whatIDid: [
+      "Won 1st Place at Gies Interdisciplinary Case Competition 2026, competing against cross-functional graduate teams",
+      "Built a full go-to-market strategy for Walmart smart commerce with an 86-drone fleet handling 779 daily delivery orders",
+      "Constructed a complete financial model: $13.7M Year 1 revenue pool, $5.28M CapEx (Path B, 5% household penetration)",
+      "Led as CMO, CTO, COO, and CFO — covering market analysis, operations, finance, and risk",
+      "Modeled suburban delivery zones with FAA Part 107 compliance framework",
+    ],
+    toolsAndTech:
+      "Financial Modeling · Revenue Modeling · CapEx Analysis · Go-To-Market Strategy · Operations Planning · Market Research · Supply Chain Analytics · Risk Assessment · Executive Presentation",
+    keyInsights: [
+      "Path B (5% household penetration) delivers positive unit economics by Month 18",
+      "FAA regulatory compliance is the critical path constraint, not technology readiness",
+      "Digital-first customer acquisition outperforms traditional retail channel adoption",
+    ],
+    outcome:
+      "🥇 1st Place — Gies Interdisciplinary Case Competition, April 25 2026. Board-ready go-to-market strategy: 86-drone fleet, 779 daily orders, $13.7M Year 1 revenue, $5.28M CapEx.",
+  },
+  {
+    id: "hedge-fund-war-room",
+    name: "Hedge Fund War Room",
+    category: "Multi-Agent Investment Intelligence",
+    tools: "Python, NLP, NewsAPI, Multi-Agent Systems, Quantamental Research",
+    image: `${import.meta.env.BASE_URL}images/projects/hedge-fund-war-room.svg`,
+    github: "https://github.com/Prattkk/hedge-fund-war-room",
+    tags: ["Python", "NLP", "NewsAPI", "Multi-Agent Systems", "Quantamental Research"],
+    businessProblem:
+      "Institutional investment positioning is opaque to most analysts. Under high-volatility macro shocks, understanding how different hedge fund archetypes would reposition requires simulating divergent investment philosophies simultaneously.",
+    whatIDid: [
+      "Simulated 5 institutional hedge fund archetypes: Renaissance Technologies, Bridgewater, Millennium, Elliott, and Brevan Howard",
+      "Built a multi-agent system where each agent decodes 13F filings and generates positioning memos under a $120/bbl oil market shock",
+      "Identified crowded longs and divergent alpha signals across fund archetypes",
+      "Applied NLP and quantamental research methodology to synthesize market intelligence from public filings and news signals",
+      "Engineered composite signal scoring across fund positioning, sentiment, and macro shock exposure",
+    ],
+    toolsAndTech:
+      "Python · Multi-Agent Systems · NLP · NewsAPI · Quantamental Research · 13F Filing Analysis · Sentiment Analysis · Signal Generation · Financial Modeling",
+    keyInsights: [
+      "Divergent alpha signals emerge when fund archetypes with different philosophies face the same macro shock",
+      "Crowded long detection requires cross-fund position overlap analysis, not single-fund analysis",
+      "13F filings combined with real-time NLP produce actionable positioning intelligence",
+    ],
+    outcome:
+      "Multi-agent investment intelligence system simulating 5 institutional hedge fund archetypes. Identified crowded longs and divergent alpha signals under $120/bbl oil market shock scenario.",
   },
   {
     id: "spotify-barcelona",

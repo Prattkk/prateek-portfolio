@@ -16,8 +16,8 @@ const Education = () => {
                 <h5>University of Illinois Urbana-Champaign</h5>
               </div>
               <div className="education-year">
-                <span>2025 – 2026</span>
-                <p className="education-gpa">GPA: 3.92 / 4.0</p>
+                <span>2025 – 2026 · STEM</span>
+                <p className="education-gpa">GPA: 3.96 / 4.0</p>
               </div>
             </div>
             <div className="education-tags">
