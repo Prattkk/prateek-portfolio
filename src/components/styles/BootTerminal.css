@@ -1,0 +1,46 @@
+.boot-terminal {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+  z-index: 5;
+  font-family: "SF Mono", "Fira Code", Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.55);
+  pointer-events: none;
+  text-align: left;
+  min-height: 133px;
+}
+.boot-line {
+  white-space: pre;
+}
+.boot-line .boot-prompt {
+  color: var(--accentColor, #c481ff);
+}
+.boot-line .boot-ok {
+  color: #6ee7a0;
+}
+.boot-caret {
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+  margin-left: 2px;
+  vertical-align: -2px;
+  background: var(--accentColor, #c481ff);
+  animation: bootBlink 0.8s steps(1) infinite;
+}
+@keyframes bootBlink {
+  50% {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .boot-terminal {
+    left: 20px;
+    bottom: 20px;
+    font-size: 10px;
+    line-height: 16px;
+    min-height: 112px;
+  }
+}

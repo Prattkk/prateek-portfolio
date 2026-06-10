@@ -1,5 +1,6 @@
 import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
 import About from "./About";
+import AgentNetwork from "./AgentNetwork";
 import Career from "./Career";
 import Certifications from "./Certifications";
 import Contact from "./Contact";
@@ -45,6 +46,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <About />
             <Metrics />
             <WhatIDo />
+            <AgentNetwork />
             <Education />
             <Career />
             <Work />

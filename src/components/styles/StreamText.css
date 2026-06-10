@@ -1,0 +1,24 @@
+.stream-para {
+  position: relative;
+}
+.stream-ghost {
+  visibility: hidden;
+}
+.stream-live {
+  position: absolute;
+  inset: 0;
+}
+.stream-cursor {
+  display: inline-block;
+  width: 9px;
+  height: 1em;
+  margin-left: 3px;
+  vertical-align: -0.15em;
+  background: var(--accentColor, #c481ff);
+  animation: streamBlink 0.7s steps(1) infinite;
+}
+@keyframes streamBlink {
+  50% {
+    opacity: 0;
+  }
+}
