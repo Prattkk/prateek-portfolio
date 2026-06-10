@@ -1,73 +1,8 @@
 import { useEffect, useState } from "react";
 import "./styles/Loading.css";
-import "./styles/BootTerminal.css";
 import { useLoading } from "../context/LoadingProvider";
 
 import Marquee from "react-fast-marquee";
-
-const BOOT_LINES = [
-  "$ boot prateek.ai --mode=portfolio",
-  "> loading LLM pipeline ............. OK",
-  "> spawning agents [6/6] ............ OK",
-  "> indexing 10 projects ............. OK",
-  "> calibrating GenAI stack .......... OK",
-  "> deploying prateek.exe ............ DONE",
-];
-
-const BootTerminal = () => {
-  const [lines, setLines] = useState<string[]>([]);
-  const [current, setCurrent] = useState("");
-
-  useEffect(() => {
-    let line = 0;
-    let char = 0;
-    let timer: ReturnType<typeof setTimeout>;
-
-    const type = () => {
-      if (line >= BOOT_LINES.length) return;
-      const target = BOOT_LINES[line];
-      if (char <= target.length) {
-        setCurrent(target.slice(0, char));
-        char++;
-        timer = setTimeout(type, 14);
-      } else {
-        setLines((prev) => [...prev, target]);
-        setCurrent("");
-        line++;
-        char = 0;
-        timer = setTimeout(type, 180);
-      }
-    };
-    timer = setTimeout(type, 400);
-    return () => clearTimeout(timer);
-  }, []);
-
-  const renderLine = (text: string, key: number | string) => (
-    <div className="boot-line" key={key}>
-      {text.startsWith("$") ? (
-        <>
-          <span className="boot-prompt">$</span>
-          {text.slice(1)}
-        </>
-      ) : text.endsWith("OK") || text.endsWith("DONE") ? (
-        <>
-          {text.slice(0, text.endsWith("OK") ? -2 : -4)}
-          <span className="boot-ok">{text.endsWith("OK") ? "OK" : "DONE"}</span>
-        </>
-      ) : (
-        text
-      )}
-    </div>
-  );
-
-  return (
-    <div className="boot-terminal">
-      {lines.map((l, i) => renderLine(l, i))}
-      {current && renderLine(current, "typing")}
-      {lines.length < BOOT_LINES.length && <span className="boot-caret"></span>}
-    </div>
-  );
-};
 
 const Loading = ({ percent }: { percent: number }) => {
   const { setIsLoading } = useLoading();
@@ -125,7 +60,6 @@ const Loading = ({ percent }: { percent: number }) => {
         </div>
       </div>
       <div className="loading-screen">
-        <BootTerminal />
         <div className="loading-marquee">
           <Marquee>
             <span> AI Engineer</span> <span>GenAI</span> <span>LLM Pipelines</span> <span>Agentic AI</span>
